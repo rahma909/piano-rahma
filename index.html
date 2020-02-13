@@ -50,8 +50,8 @@ keys.forEach(key => {
  document.addEventListener('keydown',e =>{
    if(e.repeat) return
    const key =e.key
-   const whitekeyIndex =WHITE_KEYS.indexof(key)
-   const blackkeyIndex =BLACK_KEYS.indexof(key)
+   const whitekeyIndex =WHITE_KEYS.indexOf(key)
+   const blackkeyIndex =BLACK_KEYS.indexOf(key)
     
    if(whitekeyIndex >-1) playNote(whitekeys[whitekeyIndex])
    if(blackkeyIndex >-1) playNote(blackkeys[blackkeyIndex])
